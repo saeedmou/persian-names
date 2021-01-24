@@ -20,7 +20,9 @@ class Names
 
     public function getAllBoys()
     {
-        return sort(array_merge($this->boysPersian,$this->boysArabic));
+        $bp=($this->boysPersian);
+        $ba=($this->boysArabic);
+        return sort(array_merge($bp,$ba));
     }  
   
     public function isBoy($name){
