@@ -22,7 +22,8 @@ class Names
     {
         $bp=($this->boysPersian);
         $ba=($this->boysArabic);
-        return sort(array_merge($bp,$ba));
+        $merged=array_merge($bp,$ba);
+        return sort($merged);
     }  
   
     public function isBoy($name){
