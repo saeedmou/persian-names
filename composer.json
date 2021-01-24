@@ -1,0 +1,14 @@
+{
+    "name": "samon/persian-names",
+    "description": "This package has some tools to work with Persian names.",
+    "type": "library",
+    "license": "gpl-3.0",
+    "authors": [
+        {
+            "name": "saeedmou",
+            "email": "saeed.mousavian@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
